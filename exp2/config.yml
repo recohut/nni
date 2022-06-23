@@ -1,0 +1,11 @@
+trialConcurrency: 4
+maxTrialNumber: 100
+searchSpaceFile: search_space.json
+trialCodeDirectory: .
+trialCommand: python trial.py
+tuner:
+  name: Evolution
+  classArgs:
+      optimize_mode: maximize
+trainingService:
+  platform: local
